@@ -12,7 +12,7 @@ const COMMANDS = {
   skills:
     '<span class="code">Languages:</span> Python, Java, C, SQL<br><span class="code">Technical:</span> Network Pentesting, Kali Linux, System Administration, Vulnerability Assessment, Bash Scripting<br><span class="code">Tools:</span> Metasploit Framework, Nmap, Burpsuite,Maltego, MSFVenom, Wireshark.',
   edu:
-    "Vaagdevi Engineering College -Electrical and Electronics Engineering, 2015-2029<br> Ramappa Junior College - 2013-2015",
+    "Vaagdevi Engineering College -Electrical and Electronics Engineering, 2015-2019<br> Ramappa Junior College - 2013-2015",
   // resume:
   //   "<a href='./resume.pdf' class='success link'>resume.pdf</a>",
   exper:
