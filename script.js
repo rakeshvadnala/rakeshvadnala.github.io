@@ -18,14 +18,7 @@ const COMMANDS = {
   contact:
     "You can contact me on any of following links:<br><a href='https://www.linkedin.com/in/rakeshvadnala/' class='success link'>LinkedIn</a> ,<a href='https://www.instagram.com/rakeshvadnala//' class='success link'>Instagram</a>, <a href='https://twitter.com/Rakeshvadnala' class='success link'>Twitter</a>"
    certs:
-    "Click the following links:<br><a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/c.jpg' class='success link'>C Language</a>
-	,<a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/java.jpg' class='success link'>Java</a>
-	, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/sql.jpg' class='success link'>SQL</a>
-	, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/sql1.jpg' class='success link'>SQL</a>
-	, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/html.jpg' class='success link'>HTML</a>
-	, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/eh.jpg' class='success link'>Ethical Hacking</a>
-	, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/splunk.pdf' class='success link'>Splunk 7.x</a>"
-
+    "Click the following links:<br><a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/c.jpg' class='success link'>C Language</a> ,<a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/java.jpg' class='success link'>Java</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/sql.jpg' class='success link'>SQL</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/sql1.jpg' class='success link'>SQL</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/html.jpg' class='success link'>HTML</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/eh.jpg' class='success link'>Ethical Hacking</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/splunk.pdf' class='success link'>Splunk 7.x</a>"
 };
 let userInput, terminalOutput;
 
