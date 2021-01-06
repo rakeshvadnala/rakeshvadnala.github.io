@@ -2,7 +2,7 @@ const COMMANDS = {
 	id:
 		'uid=0(root) gid=0(root) groups=0(root)',
 	help:
-    		"Commands: <span class="code">about</span>, <span class="code">exper</span>, <span class="code">edu</span>, <span class="code">skills</span>, <span class="code">proj</span>, <span class="code">contact</span>,<span class="code">certs</span>",
+    		"Commands: <span class="code">about</span>, <span class="code">exper</span>, <span class="code">edu</span>, <span class="code">skills</span>, <span class="code">proj</span>, <span class="code">contact</span>,<span class="code">certificates</span>",
  	proj:
     		"<a href='https://github.com/rakeshvadnala/wasender' class='success link'>Whatsapp Automation</a>, <br> \
     		<a href='https://github.com/rakeshvadnala/LearningWithPy' class='success link'>Python Projects</a>, <br> \
@@ -17,9 +17,7 @@ const COMMANDS = {
    		 "I was worked in Jugnoo as an Operational Executive. <br>In College days, I worked as Arudino Mentor.<br>",
   	contact:
    		 "You can contact me on any of following links:<br><a href='https://www.linkedin.com/in/rakeshvadnala/' class='success link'>LinkedIn</a> ,<a href='https://www.instagram.com/rakeshvadnala//' class='success link'>Instagram</a>, <a href='https://twitter.com/Rakeshvadnala' class='success link'>Twitter</a>"
-   	certs:
-   		 "Click the following links:<br><a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/c.jpg' class='success link'>C Language</a> ,<a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/java.jpg' class='success link'>Java</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/sql.jpg' class='success link'>SQL</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/sql1.jpg' class='success link'>SQL</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/html.jpg' class='success link'>HTML</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/eh.jpg' class='success link'>Ethical Hacking</a>, <a href='https://github.com/rakeshvadnala/rakeshvadnala.github.io/blob/master/splunk.pdf' class='success link'>Splunk 7.x</a>"
-};
+   };
 let userInput, terminalOutput;
 
 let prevInputs = [];
