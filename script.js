@@ -1,23 +1,25 @@
 const COMMANDS = {
-	id:
-		'uid=0(root) gid=0(root) groups=0(root)',
-	help:
-    		"Commands: <span class="code">about</span>, <span class="code">exper</span>, <span class="code">edu</span>, <span class="code">skills</span>, <span class="code">proj</span>, <span class="code">contact</span>,<span class="code">certificates</span>",
- 	proj:
-    		"<a href='https://github.com/rakeshvadnala/wasender' class='success link'>Whatsapp Automation</a>, <br> \
-    		<a href='https://github.com/rakeshvadnala/LearningWithPy' class='success link'>Python Projects</a>, <br> \
-    		<a href='https://arduinoprojectsall.blogspot.com/' class='success link'>Arduino and IoT Projects</a><br>",
- 	about:
-   		 "Hey! 👋<br>I'm Rakesh. I'm a Techie Geek and Software Enthusiast, I live for challenging adventures with the intent of making myself productive and also gaining inexperienced to experience in this Modern Advanced Cybersecurity World.",
-  	skills:
-    		'<span class="code">Languages:</span> Python, Java, C, SQL<br><span class="code">Technical:</span> Network Pentesting, Kali Linux, System Administration, Vulnerability Assessment, Bash Scripting<br><span class="code">Tools:</span> Metasploit Framework, Nmap, Burpsuite,Maltego, MSFVenom, Wireshark.',
- 	 edu:
-   		 "Vaagdevi Engineering College -Electrical and Electronics Engineering, 2015-2019.",
- 	 exper:
-   		 "I was worked in Jugnoo as an Operational Executive. <br>In College days, I worked as Arudino Mentor.<br>",
-  	contact:
-   		 "You can contact me on any of following links:<br><a href='https://www.linkedin.com/in/rakeshvadnala/' class='success link'>LinkedIn</a> ,<a href='https://www.instagram.com/rakeshvadnala//' class='success link'>Instagram</a>, <a href='https://twitter.com/Rakeshvadnala' class='success link'>Twitter</a>"
-   };
+  id:
+    'uid=0(root) gid=0(root) groups=0(root)',
+  help:
+    'Commands: <span class="code">about</span>, <span class="code">exper</span>, <span class="code">edu</span>, <span class="code">skills</span>, <span class="code">proj</span>, <span class="code">contact</span>,<span class="code">certs</span>',
+    proj:
+    "<a href='https://github.com/rakeshvadnala/wasender' class='success link'>Whatsapp Automation</a>, <br> \
+	<a href='https://github.com/rakeshvadnala/LearningWithPy' class='success link'>Python Projects</a>, <br> \
+    <a href='https://arduinoprojectsall.blogspot.com/' class='success link'>Arduino and IoT Projects</a><br>",
+  about:
+    "Hey! 👋<br>I'm Rakesh. I'm a Techie Geek and Software Enthusiast, I live for challenging adventures with the intent of making myself productive and also gaining inexperienced experience in this modern advanced cybersecurity world.",
+  skills:
+    '<span class="code">Languages:</span> Python, Java, C, SQL<br><span class="code">Technical:</span> Network Pentesting, Kali Linux, System Administration, Vulnerability Assessment, Bash Scripting<br><span class="code">Tools:</span> Metasploit Framework, Nmap, Burpsuite,Maltego, MSFVenom, Wireshark.',
+  edu:
+    "Vaagdevi Engineering College -Electrical and Electronics Engineering, 2015-2019<br> Ramappa Junior College - 2013-2015",
+  // resume:
+  //   "<a href='./resume.pdf' class='success link'>resume.pdf</a>",
+  exper:
+    "I was worked in Jugnoo as an Operational Executive. <br>In College days, I worked as Arudino Mentor<br>",
+  contact:
+    "You can contact me on any of following links:<br><a href='https://www.linkedin.com/in/rakeshvadnala/' class='success link'>LinkedIn</a> ,<a href='https://www.instagram.com/rakeshvadnala//' class='success link'>Instagram</a>, <a href='https://twitter.com/Rakeshvadnala' class='success link'>Twitter</a>"
+  };
 let userInput, terminalOutput;
 
 let prevInputs = [];
@@ -29,6 +31,7 @@ const app = () => {
     document.getElementById("dummyKeyboard").focus();
     console.log("Application loaded");
 };
+
 const execute = function executeCommand(input) {
     let output;
     input = input.toLowerCase();
