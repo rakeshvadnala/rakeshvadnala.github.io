@@ -12,11 +12,11 @@ const COMMANDS = {
   skills:
     '<span class="code">Languages:</span> Python, Java, C, SQL<br><span class="code">Technical:</span> Network Pentesting, Kali Linux, System Administration, Vulnerability Assessment, Bash Scripting<br><span class="code">Tools:</span> Metasploit Framework, Nmap, Burpsuite,Maltego, MSFVenom, Wireshark.',
   edu:
-    "Vaagdevi Engineering College -Electrical and Electronics Engineering, 2015-2019<br> Ramappa Junior College - 2013-2015",
+    "Vaagdevi Engineering College -Electrical and Electronics Engineering <br>",
   // resume:
   //   "<a href='./resume.pdf' class='success link'>resume.pdf</a>",
   exper:
-    "I was worked in Jugnoo as an Operational Executive. <br>In College days, I worked as Arudino Mentor<br>",
+    "I was worked in Jugnoo as an Operational Executive. <br>In College days, I worked as Arudino Mentor<br> Currently working in RNS Technologies as IAM Intern", 
   contact:
     "You can contact me on any of following links:<br><a href='https://www.linkedin.com/in/rakeshvadnala/' class='success link'>LinkedIn</a> ,<a href='https://www.instagram.com/rakeshvadnala//' class='success link'>Instagram</a>, <a href='https://twitter.com/Rakeshvadnala' class='success link'>Twitter</a>"
   };
