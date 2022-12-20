@@ -16,7 +16,7 @@ const COMMANDS = {
   // resume:
   //   "<a href='./resume.pdf' class='success link'>resume.pdf</a>",
   exper:
-    "I was worked in Jugnoo as an Operational Executive. <br>In College days, I worked as Arudino Mentor<br> Currently working in RNS Technologies as IAM Intern", 
+    "I was worked in Jugnoo as an JAVA Intern. <br>In College days, I worked as Arudino Mentor<br> Currently working in RNS Technologies as IAM Intern", 
   contact:
     "You can contact me on any of following links:<br><a href='https://www.linkedin.com/in/rakeshvadnala/' class='success link'>LinkedIn</a> ,<a href='https://www.instagram.com/rakeshvadnala//' class='success link'>Instagram</a>, <a href='https://twitter.com/Rakeshvadnala' class='success link'>Twitter</a>"
   };
