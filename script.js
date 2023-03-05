@@ -10,7 +10,7 @@ const COMMANDS = {
   about:
     "Hey! 👋<br>I'm Rakesh. I'm a Techie Geek and Software Enthusiast, I live for challenging adventures with the intent of making myself productive and also gaining inexperienced experience in this modern advanced cybersecurity world.",
   skills:
-    '<span class="code">Languages:</span> Python, Java, C, SQL<br><span class="code">Technical:</span> Network Pentesting, Kali Linux, System Administration, Vulnerability Assessment, Bash Scripting<br><span class="code">Tools:</span> Metasploit Framework, Nmap, Burpsuite,Maltego, MSFVenom, Wireshark.',
+    '<span class="code">Languages:</span> Python, Java, Beanshell Script, C, SQL<br><span class="code">Professional:</span> SailPoint IIQ, Cybersecurity, MFA, SSO, CyberArk, Splunk SIEM, Windows Server Administration(2016, 2019, 2022), Linux Administration RHEL 7 <br><span class="code">Technical:</span> Network Pentesting, Kali Linux, System Administration, Vulnerability Assessment, Bash Scripting<br><span class="code">Tools:</span> Metasploit Framework, Nmap, Burpsuite, Maltego, MSFVenom, Wireshark.',
   edu:
     "Vaagdevi Engineering College -Electrical and Electronics Engineering <br>",
   // resume:
