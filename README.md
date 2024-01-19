@@ -3,7 +3,7 @@
    <p align="left">Experienced in Operating Systems as Linux, Windows(Client and Server).</br> Experienced with Windows Server 2016 (Active Directory Domain Services, Group Policies, DNS, DHCP, IIS, DFS, WDS & Hyper-V). Experienced with Cent OS 7 (Administration). 
    </p>
    <h2 align="Left">Certified:</h2>
-   <p align="left"> <b>1. CyberArk Trusstee</br>2. Splunk SIEM 7.x </br>3. ISO/IEC 27001 Information Security Associate™ </br>4. Cyber Security Foundation Professional </br> 5. Ethical Hacker Foundation </br>6. SailPoint IdentityIQ developer and Administrator</b> 
+   <p align="left"> <b>1. CyberArk Trusstee</br>2. Splunk SIEM 7.x </br>3. ISO/IEC 27001 Information Security Associate™ </br>4. Cyber Security Foundation Professional </br> 5. Ethical Hacker Foundation </br>6. SailPoint IdentityIQ developer and Administrator</b>
    </p>
    
 <!-- <img align="right" src="https://rakeshvadnala.online/0.jpg" height="200" width="200" > -->
