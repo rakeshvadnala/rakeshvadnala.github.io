@@ -6,7 +6,7 @@
    <p align="left"> [<b>CyberArk Trusstee</b>, <b>Splunk SIEM 7.x</b>, <b>ISO/IEC 27001 Information Security Associate™</b>,<b>Cyber Security Foundation Professional</b>, <b>Ethical Hacker Foundation]</b> 
    </p>
    
-<img align="right" src="https://rakeshvadnala.online/0.jpg" height="200" width="200" >
+<!-- <img align="right" src="https://rakeshvadnala.online/0.jpg" height="200" width="200" > -->
 
 ### Language & Skills:
 [<img align="left" alt="Python" width="22px" src="https://www.sololearn.com/Icons/Courses/1073.png" />][Python]
