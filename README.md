@@ -33,11 +33,6 @@
 [WS]: https://rakeshvadnala.online
 
 
-
-<h4 align="Left">life always offers you a second chance, Don't lose it</h4>
-
-<img src="http://www.hackthebox.eu/badge/image/146863" alt="Hack The Box">
-
 ### Connect with me:
 
 [<img align="left" alt="rakeshvadnala.online" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
@@ -46,6 +41,11 @@
 [<img align="left" alt="rakeshvadnala | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 <br />
 
+
+
+
+<h4 align="Left">life always offers you a second chance, Don't lose it</h4>
+<img src="http://www.hackthebox.eu/badge/image/146863" alt="Hack The Box">
 
 [website]: https://rakeshvadnala.online
 [twitter]: https://twitter.com/rakeshvadnala
