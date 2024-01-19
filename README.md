@@ -41,14 +41,12 @@
 [<img align="left" alt="rakeshvadnala | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 <br />
 
-
-
-
-<h4 align="Left">life always offers you a second chance, Don't lose it</h4>
-<img src="http://www.hackthebox.eu/badge/image/146863" alt="Hack The Box">
-
 [website]: https://rakeshvadnala.online
 [twitter]: https://twitter.com/rakeshvadnala
 [instagram]: https://instagram.com/rakeshvadnala
 [linkedin]: https://linkedin.com/in/rakeshvadnala
-   
+
+
+### HACK-THE-BOX:
+<h4 align="Left">life always offers you a second chance, Don't lose it</h4>
+<img src="http://www.hackthebox.eu/badge/image/146863" alt="Hack The Box">
