@@ -1,7 +1,15 @@
 <h1 align="Left">Hi there 👋 </h1>
 <p align="centre">I am Rakesh Vadnala. Rakesh had Strong Hands-on experience in Arduino and IoT Projects.</p>
-   <p align="left">Experienced in Operating Systems as Linux, Windows(Client and Server). </br>Experienced with Windows Server 2016 (Active Directory Domain Services, Group Policies, DNS, DHCP, IIS, DFS, WDS & Hyper-V). </br>Experienced with Cent OS 7 (Administration).
-   </p>
+      <p align="left">I am Rakesh Vadnala, and I bring to the table a wealth of experience in the field of technology, particularly in Arduino and IoT projects. My hands-on experience in these areas has equipped me with the skills and knowledge to successfully design and implement innovative solutions.</p>
+
+<p align="left">In the realm of operating systems, I possess a strong command of both Linux and Windows, encompassing client and server environments. My proficiency extends to various aspects of Windows Server 2016, where I have demonstrated expertise in managing key components such as Active Directory Domain Services, Group Policies, DNS, DHCP, IIS (Internet Information Services), DFS (Distributed File System), WDS (Windows Deployment Services), and Hyper-V.</p>
+
+<p align="left">Within the Windows Server 2016 environment, my experience includes the configuration and maintenance of Active Directory, implementing and managing Group Policies for seamless network administration, overseeing DNS and DHCP services for efficient network communication, and managing web services through IIS. Additionally, I have a solid understanding of distributed file systems using DFS and deployment services through WDS. Moreover, my expertise extends to virtualization with Hyper-V, ensuring optimal utilization of resources and efficient management of virtual environments.</p>
+
+<p align="left">On the Linux front, I am well-versed in CentOS 7 administration. This includes tasks such as system configuration, user management, security implementation, and overall system maintenance. My proficiency in Linux adds versatility to my skill set, allowing me to navigate and optimize diverse technological landscapes.</p>
+
+<p align="left">In summary, my comprehensive experience in Arduino and IoT projects, coupled with my adeptness in managing both Windows Server 2016 and CentOS 7 environments, positions me as a skilled professional capable of addressing complex technological challenges and contributing to the success of innovative projects.</p>
+
    <h2 align="Left">Certified:</h2>
    <p align="left"> <b>1. CyberArk Trusstee</br>2. Splunk SIEM 7.x </br>3. ISO/IEC 27001 Information Security Associate™ </br>4. Cyber Security Foundation Professional </br> 5. Ethical Hacker Foundation </br>6. SailPoint IdentityIQ developer and Administrator</b>
    </p>
