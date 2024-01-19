@@ -46,7 +46,6 @@
 [instagram]: https://instagram.com/rakeshvadnala
 [linkedin]: https://linkedin.com/in/rakeshvadnala
 
-
 ### HACK-THE-BOX:
 <h4 align="Left">life always offers you a second chance, Don't lose it</h4>
 <img src="http://www.hackthebox.eu/badge/image/146863" alt="Hack The Box">
