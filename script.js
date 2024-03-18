@@ -2,7 +2,7 @@ const COMMANDS = {
   id:
     'uid=0(root) gid=0(root) groups=0(root)',
   help:
-    'Commands: <span class="code">about</span>, <span class="code">exper</span>, <span class="code">edu</span>, <span class="code">skills</span>, <span class="code">proj</span>, <span class="code">contact</span>,<span class="code">certs</span>',
+    'Commands: <span class="code">about</span>, <span class="code">exper</span>, <span class="code">edu</span>, <span class="code">skills</span>, <span class="code">proj</span>, <span class="code">contact</span>,<span class="code"> certs</span>',
     proj:
     "<a href='https://github.com/rakeshvadnala/wasender' class='success link'>Whatsapp Automation</a>, <br> \
 	<a href='https://github.com/rakeshvadnala/LearningWithPy' class='success link'>Python Projects</a>, <br> \
