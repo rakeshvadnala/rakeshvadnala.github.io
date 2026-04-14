@@ -10,7 +10,7 @@
 <p align="left">In summary, my comprehensive experience in Arduino and IoT projects, coupled with my adeptness in managing both Windows Server 2016 and CentOS 7 environments, positions me as a skilled professional capable of addressing complex technological challenges and contributing to the success of innovative projects.</p>
 
    <h2 align="Left">Certified:</h2>
-   <p align="left"> <b>1. CyberArk Trusstee</br>2. Splunk SIEM 7.x </br>3. ISO/IEC 27001 Information Security Associate™ </br>4. Cyber Security Foundation Professional </br> 5. Ethical Hacker Foundation </br>6. SailPoint IdentityIQ developer and Administrator</b>
+   <p align="left"> <b>1. CyberArk Trusstee</br>2. Splunk SIEM 7.x </br>3. ISO/IEC 27001 Information Security Associate™ </br>4. Cyber Security Foundation Professional </br> 5. Ethical Hacker Foundation </br>6. SailPoint IdentityIQ developer and Administrator</b> </br>7. Saviynt Developer and Administrator</b>
    </p>
    
 <!-- <img align="right" src="https://rakeshvadnala.online/0.jpg" height="200" width="200" > -->
