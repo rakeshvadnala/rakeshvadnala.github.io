@@ -1,85 +1,655 @@
 <!DOCTYPE html>
-<html lang="en" >
-	<head>
-		<meta charset="UTF-8">
-		<title>Rakesh Vadnala</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="I'm Rakesh — a Pentester, Programmer, Techie, Photographer, and Software Enthusiast and a CyberSecurity Engineer." />
-		<meta name="keywords" content="rakesh, techie rakesh, rakesh techie, rakeshvadnala, vadnalarakesh, rakesh vadnala, vadnala rakesh, techgeek, tech geek, techgeeks, tech person, tech guy, techie boss" />
-		<meta name="author" content="Rakesh Vadnala" />
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css'>
-		<link rel="stylesheet" href="./style.css">
-		
-	</head>
-	<body>
-		<!-- partial:index.partial.html -->
-		<section class="hero is-fullheight">
-			<div class="hero-body">
-				<div class="container">
-					<div class="columns">
-						<div class="column is-3 is-flex">
-							<div class="column-child sidebar shadow">
-								<div class="sidebar-header has-text-centered">
-									<img src="0.jpg" alt="Avatar" class="sidebar-image">
-									<h2 class="header-name">Rakesh Vadnala</h2>
-									<h5>Software Enthusiast, Programmer, Pentester, Photographer</h5>
-									<div class="social-icons">
-										
-										<a href="https://www.linkedin.com/in/rakeshvadnala"><i class="fab fa-linkedin icon"></i></a>
-										<a href="https://github.com/rakeshvadnala"><i class="fab fa-github icon"></i></a>
-										<a href="https://twitter.com/Rakeshvadnala"><i class="fab fa-twitter icon"></i></a>         
-										<a href="https://www.instagram.com/rakeshvadnala/"><i class="fab fa-instagram icon"></i></a>
-										<a href="https://www.sololearn.com/profile/1170667/"><i class="fab fa-sololearn icon"></i></a>
-										<a href="https://arduinoprojectsall.blogspot.com/"><i class="fab fa-blogger icon"></i></a>
-										<!-- <a href="https://api.whatsapp.com/send?phone=+91xxxxxxxx&text=Holla!%2C%20I%20visited%20your%20blog."><i class="fab fa-whatsapp icon"></i></a>  -->
-										
-									</div>
-					                                    <div class="resume">
-                                        <span>For resume visit : <a href="https://rakeshvadnala.github.io/resume" target="_blank" class="sidebar-link" class="code"><span class="code">here</span></a></span> 
-                                    </div>
-								</div>
-							</div>
-						</div>
-						<div class="column is-flex">
-							<div class="column-child terminal shadow">
-								<div class="terminal-bar dark-mode">
-									<div class="icon-btn close"></div>
-									<div class="icon-btn min"></div>
-									<div class="icon-btn max"></div>
-									<div class="terminal-bar-text is-hidden-mobile dark-mode-text">root@h4ckup ~</div>
-								</div>
-								
-								<div class="terminal-window primary-bg" onclick="document.getElementById('dummyKeyboard').focus();">
-									<div class="terminal-output" id="terminalOutput">
-										<div class="terminal-line">
-											<span class="help-msg">H3ll0! W3lc0me t0 b4sh : Type <span class="code">help</span>
-												for commands.
-											</span>			
-										</span>
-									</div>
-								</div>
-								<div class="terminal-line">
-									<span class="successl">root@h4sh</span> <span class="directory">#</span> <span class="user-input"
-									id="userInput"></span>
-									<input type="text" id="dummyKeyboard" class="dummy-keyboard">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer class="footer">
-			<div class="content has-text-centered">
-				<p>
-				Designed by <a href="https://www.linkedin.com/in/rakeshvadnala/" target="_blank">@RakeshVadnala</a>
-				</p>
-			</div>
-		</footer>
-	</section>
-	<!-- partial -->
-	<script src='https://use.fontawesome.com/releases/v5.3.1/js/all.js'></script><script  src="./script.js"></script>
-	
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rakesh Vadnala</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I'm Rakesh — a Pentester, Programmer, Techie, Photographer, and Software Enthusiast and a CyberSecurity Engineer." />
+  <meta name="keywords" content="rakesh, techie rakesh, rakesh techie, rakeshvadnala, vadnalarakesh, rakesh vadnala, vadnala rakesh, techgeek, tech geek, techgeeks, tech person, tech guy, techie boss" />
+  <meta name="author" content="Rakesh Vadnala" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;600;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --bg-deep:      #020c1b;
+      --bg-panel:     rgba(10, 25, 47, 0.85);
+      --bg-glass:     rgba(13, 31, 61, 0.6);
+      --neon-cyan:    #00f5ff;
+      --neon-green:   #39ff14;
+      --neon-pink:    #ff2d78;
+      --text-main:    #ccd6f6;
+      --text-muted:   #8892b0;
+      --text-bright:  #e6f1ff;
+      --border-glow:  rgba(0, 245, 255, 0.18);
+      --border-panel: rgba(0, 245, 255, 0.08);
+      --shadow-neon:  0 0 30px rgba(0,245,255,0.08), 0 8px 32px rgba(0,0,0,0.6);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      background-color: var(--bg-deep);
+      font-family: 'Inter', sans-serif;
+      color: var(--text-main);
+      overflow-x: hidden;
+    }
+
+    /* ── CANVAS PARTICLE BG ── */
+    #bg-canvas {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* ── GRID OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background-image:
+        linear-gradient(rgba(0,245,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,245,255,0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+    }
+
+    /* ── SCANLINE OVERLAY ── */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.04) 2px,
+        rgba(0,0,0,0.04) 4px
+      );
+      pointer-events: none;
+    }
+
+    /* ── LAYOUT ── */
+    .page-wrapper {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+    }
+
+    .columns {
+      display: flex;
+      gap: 1.5rem;
+      width: 100%;
+      max-width: 1100px;
+      align-items: stretch;
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      flex: 0 0 270px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1.5rem;
+      background: var(--bg-glass);
+      border: 1px solid var(--border-glow);
+      border-radius: 12px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: var(--shadow-neon), inset 0 1px 0 rgba(255,255,255,0.05);
+      animation: fadeSlideLeft 0.8s ease both;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sidebar::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
+    }
+
+    .sidebar-image {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--neon-cyan);
+      box-shadow: 0 0 20px rgba(0,245,255,0.3), 0 0 60px rgba(0,245,255,0.1);
+      margin-bottom: 1rem;
+      animation: pulseGlow 3s ease-in-out infinite;
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 20px rgba(0,245,255,0.3), 0 0 60px rgba(0,245,255,0.1); }
+      50%       { box-shadow: 0 0 30px rgba(0,245,255,0.5), 0 0 80px rgba(0,245,255,0.2); }
+    }
+
+    .header-name {
+      font-family: 'Orbitron', monospace;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--text-bright);
+      letter-spacing: 0.08em;
+      text-align: center;
+      margin-bottom: 0.3rem;
+    }
+
+    .header-tagline {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-align: center;
+      line-height: 1.5;
+      margin-bottom: 1.2rem;
+    }
+
+    .status-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(57,255,20,0.08);
+      border: 1px solid rgba(57,255,20,0.25);
+      border-radius: 20px;
+      padding: 0.3rem 0.8rem;
+      margin-bottom: 1.4rem;
+    }
+
+    .status-dot {
+      width: 7px; height: 7px;
+      background: var(--neon-green);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--neon-green);
+      animation: blink 1.4s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.3; }
+    }
+
+    .status-text {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--neon-green);
+    }
+
+    /* social icons */
+    .social-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.7rem;
+      margin-bottom: 1.4rem;
+    }
+
+    .social-icons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px; height: 36px;
+      border: 1px solid var(--border-glow);
+      border-radius: 8px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      background: rgba(0,245,255,0.03);
+      text-decoration: none;
+      transition: all 0.25s;
+    }
+
+    .social-icons a:hover {
+      color: var(--neon-cyan);
+      border-color: rgba(0,245,255,0.5);
+      background: rgba(0,245,255,0.08);
+      box-shadow: 0 0 12px rgba(0,245,255,0.2);
+      transform: translateY(-2px);
+    }
+
+    .resume-link {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.73rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    .resume-link a {
+      color: var(--neon-cyan);
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .resume-link a:hover {
+      text-shadow: 0 0 10px var(--neon-cyan);
+    }
+
+    /* ── TERMINAL PANEL ── */
+    .terminal-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      animation: fadeSlideRight 0.8s ease 0.15s both;
+    }
+
+    .terminal-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-glass);
+      border: 1px solid var(--border-glow);
+      border-radius: 12px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: var(--shadow-neon), inset 0 1px 0 rgba(255,255,255,0.04);
+      overflow: hidden;
+    }
+
+    /* title bar */
+    .terminal-bar {
+      display: flex;
+      align-items: center;
+      padding: 0.7rem 1rem;
+      background: rgba(0,0,0,0.35);
+      border-bottom: 1px solid var(--border-panel);
+      position: relative;
+    }
+
+    .traffic-lights {
+      display: flex;
+      gap: 6px;
+    }
+
+    .tl { width: 13px; height: 13px; border-radius: 50%; }
+    .tl-close  { background: #ff5f57; box-shadow: 0 0 6px rgba(255,95,87,0.6); }
+    .tl-min    { background: #ffbd2e; box-shadow: 0 0 6px rgba(255,189,46,0.6); }
+    .tl-max    { background: #28c840; box-shadow: 0 0 6px rgba(40,200,64,0.6); }
+
+    .terminal-title {
+      position: absolute;
+      left: 50%; transform: translateX(-50%);
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    /* terminal body */
+    .terminal-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 340px;
+      cursor: text;
+    }
+
+    .terminal-output {
+      flex: 1;
+      padding: 1rem 1.2rem 0.5rem;
+      overflow-y: auto;
+      scrollbar-width: none;
+    }
+
+    .terminal-output::-webkit-scrollbar { display: none; }
+
+    .terminal-line {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--text-main);
+      line-height: 1.7;
+      word-break: break-word;
+    }
+
+    .terminal-input-row {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 1.2rem 1rem;
+      border-top: 1px solid var(--border-panel);
+      gap: 0.4rem;
+    }
+
+    .prompt-symbol {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    .prompt-host  { color: var(--neon-pink); }
+    .prompt-dir   { color: var(--neon-cyan); }
+    .prompt-hash  { color: var(--text-muted); }
+
+    #userInput {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--text-main);
+      min-width: 2px;
+    }
+
+    #dummyKeyboard {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: transparent;
+      caret-color: transparent;
+      font-size: 0.85rem;
+      width: 1px;
+      padding: 0;
+    }
+
+    .cursor-blink {
+      display: inline-block;
+      width: 8px; height: 14px;
+      background: var(--neon-cyan);
+      margin-left: 1px;
+      vertical-align: middle;
+      animation: cursorBlink 1s step-end infinite;
+      box-shadow: 0 0 8px var(--neon-cyan);
+    }
+
+    @keyframes cursorBlink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0; }
+    }
+
+    /* terminal text colours */
+    .t-success { color: var(--neon-green); }
+    .t-error   { color: var(--neon-pink); }
+    .t-dir     { color: var(--neon-cyan); }
+    .t-code    { color: #ff9d00; }
+    .t-host    { color: var(--neon-pink); }
+    .t-link    { color: var(--neon-cyan); text-decoration: none; transition: text-shadow 0.2s; }
+    .t-link:hover { text-shadow: 0 0 10px var(--neon-cyan); }
+    .t-muted   { color: var(--text-muted); }
+
+    /* welcome */
+    .welcome-ascii {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.72rem;
+      color: rgba(0,245,255,0.5);
+      white-space: pre;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .help-msg {
+      color: var(--text-muted);
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.82rem;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 1.5rem;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    footer a { color: var(--neon-cyan); text-decoration: none; }
+    footer a:hover { text-shadow: 0 0 8px var(--neon-cyan); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeSlideLeft {
+      from { opacity: 0; transform: translateX(-24px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes fadeSlideRight {
+      from { opacity: 0; transform: translateX(24px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .columns { flex-direction: column; }
+      .sidebar { flex: unset; width: 100%; }
+      .welcome-ascii { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<div class="page-wrapper">
+  <div class="columns">
+
+    <!-- ── SIDEBAR ── -->
+    <aside class="sidebar">
+      <img src="0.jpg" alt="Rakesh Vadnala" class="sidebar-image">
+
+      <h2 class="header-name">Rakesh Vadnala</h2>
+      <p class="header-tagline">Software Enthusiast · Programmer<br>Pentester · Photographer</p>
+
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span class="status-text">Available for work</span>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/rakeshvadnala" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/rakeshvadnala" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/Rakeshvadnala" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rakeshvadnala/" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.sololearn.com/profile/1170667/" title="SoloLearn"><i class="fab fa-js"></i></a>
+        <a href="https://arduinoprojectsall.blogspot.com/" title="Blog"><i class="fab fa-blogger-b"></i></a>
+      </div>
+
+      <div class="resume-link">
+        Resume: <a href="https://rakeshvadnala.github.io/resume" target="_blank">view here →</a>
+      </div>
+    </aside>
+
+    <!-- ── TERMINAL ── -->
+    <div class="terminal-col">
+      <div class="terminal-panel">
+
+        <div class="terminal-bar">
+          <div class="traffic-lights">
+            <div class="tl tl-close"></div>
+            <div class="tl tl-min"></div>
+            <div class="tl tl-max"></div>
+          </div>
+          <span class="terminal-title">root@h4ckup ~ bash</span>
+        </div>
+
+        <div class="terminal-body" onclick="document.getElementById('dummyKeyboard').focus()">
+          <div class="terminal-output" id="terminalOutput">
+            <pre class="welcome-ascii">
+  ██████╗ ██╗   ██╗    ████████╗███████╗ ██████╗██╗  ██╗
+  ██╔══██╗██║   ██║       ██╔══╝██╔════╝██╔════╝██║  ██║
+  ██████╔╝██║   ██║       ██║   █████╗  ██║     ███████║
+  ██╔══██╗╚██╗ ██╔╝       ██║   ██╔══╝  ██║     ██╔══██║
+  ██║  ██║ ╚████╔╝        ██║   ███████╗╚██████╗██║  ██║
+  ╚═╝  ╚═╝  ╚═══╝         ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝</pre>
+            <div class="terminal-line help-msg">
+              H3ll0! W3lc0me t0 b4sh — Type <span class="t-code">help</span> for available commands.
+            </div>
+          </div>
+
+          <div class="terminal-input-row">
+            <span class="prompt-symbol">
+              <span class="prompt-host">root@h4sh</span><span class="prompt-hash"> # </span>
+            </span>
+            <span id="userInput"></span>
+            <span class="cursor-blink"></span>
+            <input type="text" id="dummyKeyboard" autocomplete="off" autocorrect="off" spellcheck="false">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  Designed &amp; built by <a href="https://www.linkedin.com/in/rakeshvadnala/" target="_blank">@RakeshVadnala</a>
+</footer>
+
+<script>
+/* ─── PARTICLE CANVAS ─── */
+(function() {
+  const canvas = document.getElementById('bg-canvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles = [];
+
+  const resize = () => {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  };
+  resize();
+  window.addEventListener('resize', resize);
+
+  class Particle {
+    constructor() { this.reset(); }
+    reset() {
+      this.x  = Math.random() * W;
+      this.y  = Math.random() * H;
+      this.vx = (Math.random() - 0.5) * 0.3;
+      this.vy = (Math.random() - 0.5) * 0.3;
+      this.r  = Math.random() * 1.5 + 0.3;
+      this.alpha = Math.random() * 0.4 + 0.1;
+    }
+    update() {
+      this.x += this.vx; this.y += this.vy;
+      if (this.x < 0 || this.x > W || this.y < 0 || this.y > H) this.reset();
+    }
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.r, 0, Math.PI*2);
+      ctx.fillStyle = `rgba(0,245,255,${this.alpha})`;
+      ctx.fill();
+    }
+  }
+
+  for (let i = 0; i < 120; i++) particles.push(new Particle());
+
+  const LINK_DIST = 110;
+  function loop() {
+    ctx.clearRect(0, 0, W, H);
+    particles.forEach(p => { p.update(); p.draw(); });
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i+1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const d  = Math.sqrt(dx*dx + dy*dy);
+        if (d < LINK_DIST) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(0,245,255,${0.08*(1-d/LINK_DIST)})`;
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(loop);
+  }
+  loop();
+})();
+
+/* ─── TERMINAL LOGIC ─── */
+const COMMANDS = {
+  id:
+    '<span class="t-success">uid=0(root) gid=0(root) groups=0(root)</span>',
+  help:
+    'Commands: <span class="t-code">about</span> · <span class="t-code">exper</span> · <span class="t-code">edu</span> · <span class="t-code">skills</span> · <span class="t-code">proj</span> · <span class="t-code">contact</span> · <span class="t-code">certs</span>',
+  proj:
+    '<a href="https://github.com/rakeshvadnala/wasender" class="t-link">↳ Whatsapp Automation</a><br>' +
+    '<a href="https://github.com/rakeshvadnala/LearningWithPy" class="t-link">↳ Python Projects</a><br>' +
+    '<a href="https://arduinoprojectsall.blogspot.com/" class="t-link">↳ Arduino and IoT Projects</a>',
+  about:
+    "Hey! 👋<br>I'm Rakesh. I'm a Techie Geek and Software Enthusiast, I live for challenging adventures with the intent of making myself productive and also gaining inexperienced experience in this modern advanced cybersecurity world.",
+  skills:
+    '<span class="t-code">Languages:</span> Python, Java, Beanshell Script, C, SQL<br>' +
+    '<span class="t-code">Professional:</span> SailPoint IIQ, Cybersecurity, MFA, SSO, CyberArk, Splunk SIEM, Windows Server Administration (2016, 2019, 2022), Linux Administration RHEL 7<br>' +
+    '<span class="t-code">Technical:</span> Network Pentesting, Kali Linux, System Administration, Vulnerability Assessment, Bash Scripting<br>' +
+    '<span class="t-code">Tools:</span> Metasploit Framework, Nmap, Burpsuite, Maltego, MSFVenom, Wireshark',
+  edu:
+    'Vaagdevi Engineering College — Electrical and Electronics Engineering',
+  exper:
+    'I worked in Jugnoo as an Operational Executive.<br>In College days, I worked as an Arduino Mentor.<br>Currently working in RNS Technologies as IAM Technical Consultant.',
+  contact:
+    'You can reach me on:<br>' +
+    '<a href="https://www.linkedin.com/in/rakeshvadnala/" class="t-link">↳ LinkedIn</a>  ' +
+    '<a href="https://www.instagram.com/rakeshvadnala/" class="t-link">↳ Instagram</a>  ' +
+    '<a href="https://twitter.com/Rakeshvadnala" class="t-link">↳ Twitter</a>',
+  certs: '<span class="t-muted">No certs listed yet. Type <span class="t-code">contact</span> to connect.</span>'
+};
+
+let userInput, terminalOutput;
+let prevInputs = [], lenUp = -1;
+
+const app = () => {
+  userInput      = document.getElementById('userInput');
+  terminalOutput = document.getElementById('terminalOutput');
+  document.getElementById('dummyKeyboard').focus();
+};
+
+const execute = (input) => {
+  input = input.trim().toLowerCase();
+  if (!input) return;
+
+  const cmdLine = `<div class="terminal-line"><span class="t-host">root@h4sh</span> <span class="t-muted">#</span> <span class="t-dir">${input}</span></div>`;
+  let result;
+  if (!COMMANDS.hasOwnProperty(input)) {
+    result = `<div class="terminal-line t-error">bash: ${input}: command not found</div>`;
+  } else {
+    result = `<div class="terminal-line">${COMMANDS[input]}</div>`;
+  }
+
+  terminalOutput.innerHTML += cmdLine + result;
+  terminalOutput.scrollTop  = terminalOutput.scrollHeight;
+  userInput.innerHTML = '';
+  document.getElementById('dummyKeyboard').value = '';
+  prevInputs.push(input);
+  lenUp = prevInputs.length - 1;
+};
+
+document.addEventListener('keydown', (e) => {
+  const kb = document.getElementById('dummyKeyboard');
+  // live echo
+  if (e.key !== 'Enter' && e.key !== 'ArrowUp' && e.key !== 'ArrowDown' && e.key !== 'Backspace' && e.key !== 'Delete') {
+    return;
+  }
+  if (e.key === 'ArrowUp' && lenUp !== -1) {
+    kb.value = prevInputs[lenUp];
+    userInput.innerHTML = prevInputs[lenUp];
+    if (--lenUp < 0) lenUp = prevInputs.length - 1;
+    return;
+  }
+  if (e.key === 'ArrowDown' && lenUp !== -1) {
+    if (++lenUp >= prevInputs.length) lenUp = 0;
+    kb.value = prevInputs[lenUp];
+    userInput.innerHTML = prevInputs[lenUp];
+    return;
+  }
+  if (e.key === 'Backspace' || e.key === 'Delete') {
+    userInput.innerHTML = userInput.innerHTML.slice(0, -1);
+  }
+});
+
+document.addEventListener('keypress', (e) => {
+  const kb = document.getElementById('dummyKeyboard');
+  // mirror typing to visible span
+  if (e.key !== 'Enter') {
+    userInput.innerHTML = kb.value + e.key;
+  } else {
+    execute(kb.value);
+  }
+});
+
+document.addEventListener('DOMContentLoaded', app);
+</script>
 </body>
 </html>
