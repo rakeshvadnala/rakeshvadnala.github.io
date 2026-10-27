@@ -60,7 +60,7 @@ My work covers application onboarding and integration, identity lifecycle manage
 
 ## 🎓 Education
 
-**B.Tech, Electrical & Electronics Engineering**, Vaagdevi Engineering College (2015 – 2019)
+**B.Tech, Electrical & Electronics Engineering**, Vaagdevi Engineering College
 
 ## 📫 Connect
 
