@@ -1,67 +1,71 @@
-<h1 align="Left">Hi there 👋 </h1>
-<p align="left">I am Rakesh Vadnala, and I bring to the table a wealth of experience in the field of technology, particularly in Arduino and IoT projects. My hands-on experience in these areas has equipped me with the skills and knowledge to successfully design and implement innovative solutions.</p>
+# Hi there 👋 I'm Rakesh Vadnala
 
-<p align="left">In the realm of operating systems, I possess a strong command of both Linux and Windows, encompassing client and server environments. My proficiency extends to various aspects of Windows Server 2016, where I have demonstrated expertise in managing key components such as Active Directory Domain Services, Group Policies, DNS, DHCP, IIS (Internet Information Services), DFS (Distributed File System), WDS (Windows Deployment Services), and Hyper-V.</p>
+**Senior IAM Technical Consultant** at RNS Technology Services · Dubai, UAE
 
-<p align="left">Within the Windows Server 2016 environment, my experience includes the configuration and maintenance of Active Directory, implementing and managing Group Policies for seamless network administration, overseeing DNS and DHCP services for efficient network communication, and managing web services through IIS. Additionally, I have a solid understanding of distributed file systems using DFS and deployment services through WDS. Moreover, my expertise extends to virtualization with Hyper-V, ensuring optimal utilization of resources and efficient management of virtual environments.</p>
+🌐 [rakeshvadnala.in](https://rakeshvadnala.in) · 📄 [Resume](https://resume.rakeshvadnala.in/) · 💼 [LinkedIn](https://www.linkedin.com/in/rakeshvadnala/)
 
-<p align="left">On the Linux front, I am well-versed in CentOS 7 administration. This includes tasks such as system configuration, user management, security implementation, and overall system maintenance. My proficiency in Linux adds versatility to my skill set, allowing me to navigate and optimize diverse technological landscapes.</p>
+I implement, develop and optimize enterprise **Identity & Access Management (IAM)** and **Identity Governance & Administration (IGA)** solutions on **SailPoint IdentityIQ** and **Saviynt**. I have 5+ years of experience with IdentityIQ, including about 2 years on Saviynt Enterprise Identity Cloud.
 
-<p align="left">In summary, my comprehensive experience in Arduino and IoT projects, coupled with my adeptness in managing both Windows Server 2016 and CentOS 7 environments, positions me as a skilled professional capable of addressing complex technological challenges and contributing to the success of innovative projects.</p>
+My work covers application onboarding and integration, identity lifecycle management, automated provisioning and deprovisioning, RBAC, entitlement management and access certification campaigns. I build custom connectors, workflows, rules, APIs and scripts to automate identity governance. I also contribute to **Identity Security Posture Management (ISPM)**: access-change tracking, dormant account analysis, access-risk identification, security dashboards and governance reporting.
 
-   <h2 align="Left">Certified:</h2>
-<p align="left">
-  <b>
-    1. CyberArk Trusstee<br>
-    2. Splunk SIEM 7.x<br>
-    3. ISO/IEC 27001 Information Security Associate™<br>
-    4. Cyber Security Foundation Professional<br>
-    5. Ethical Hacker Foundation<br>
-    6. SailPoint IdentityIQ developer and Administrator<br>
-    7. Saviynt Developer and Administrator
-  </b>
-</p>
-   
-<!-- <img align="right" src="https://rakeshvadnala.online/0.jpg" height="200" width="200" > -->
+---
 
-### Language & Skills:
-[<img align="left" alt="Python" width="22px" src="https://www.sololearn.com/Icons/Courses/1073.png" />][Python]
-[<img align="left" alt="C" width="22px" src="https://www.sololearn.com/Icons/Courses/1089.png" />][C]
-[<img align="left" alt="Java" width="22px" src="https://www.sololearn.com/Icons/Courses/1068.png" />][Java]
-[<img align="left" alt="Java" width="22px" src="https://www.sololearn.com/Icons/Courses/1060.png" />][SQL]
-[<img align="left" alt="HTML" width="22px" src="https://www.sololearn.com/Icons/Courses/1014.png" />][HTML]
-[<img align="left" alt="EH" width="22px" src="http://www.gatewaysoftwaresolutions.com/img/icon/ethical%20hacking.png" />][EH]
-[<img align="left" alt="Nmap" width="22px" src="https://nmap.org/images/nmap-project-logo.png" />][Nmap]
-[<img align="left" alt="Burpsuite" width="22px" src="https://icons.iconarchive.com/icons/goescat/macaron/256/burp-suite-icon.png" />][BS]
-[<img align="left" alt="Maltego" width="22px" src="https://www.maltego.com/img/Social%20Profile%20Pic@4x.png" />][MT]
-[<img align="left" alt="wireshark" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Wireshark_Icon.png" />][WS]
-<br />
+## 💼 Experience
 
-[Python]: https://storage.googleapis.com/programminghub/certificate%2F1598690435715.jpg
-[C]: https://www.sololearn.com/Certificate/1089-1170667/jpg
-[Java]: https://www.sololearn.com/Certificate/1068-1170667/jpg
-[SQL]: https://www.sololearn.com/Certificate/1060-1170667/jpg
-[HTML]: https://www.sololearn.com/Certificate/1014-1170667/jpg
-[EH]: https://storage.googleapis.com/programminghub/certificate%2F1595704979003.jpg
-[Nmap]: https://rakeshvadnala.online
-[BS]: https://rakeshvadnala.online
-[MT]: https://rakeshvadnala.online
-[WS]: https://rakeshvadnala.online
+**RNS Technology Services**
+- **Senior IAM Technical Consultant**: Sep 2026 – Present
+- **IAM Technical Consultant**: Sep 2022 – Sep 2026
+- **Associate IAM Technical Consultant**: Sep 2021 – Apr 2024
+- **IAM Intern**: Apr 2021 – Sep 2021
 
+**Jugnoo Franchise**: Operations Executive, Feb 2020 – Jul 2020
 
-### HACK-THE-BOX:
-<h4 align="Left">Life always offers you a second chance; don't lose it.!!</h4>
-<img src="http://www.hackthebox.eu/badge/image/146863" alt="Hack The Box">
+## 🛠️ Skills
 
-### Connect with me:
+| Area | Skills |
+|---|---|
+| **Platforms** | SailPoint IdentityIQ, Saviynt Enterprise Identity Cloud |
+| **IGA** | Identity lifecycle & Joiner-Mover-Leaver automation, entitlement management, custom workflows, application onboarding, RBAC, access reviews & certifications, SoD analysis & mitigation |
+| **ISPM** | Access-change tracking, dormant account analysis, access-risk identification, security dashboards, governance reporting |
+| **Integration & Security** | Custom connectors, rules & APIs, REST/SOAP integrations, Splunk log integration, SSO & MFA, password management, PAM scripting (Wallix), CyberArk |
+| **Apps onboarded** | Active Directory, LDAP, JDBC, Web Services, Windows Local, Linux Direct, SharePoint, MSSQL, Delimited Files, SIQ (FAM), Cloud Gateway, Salesforce |
+| **Languages** | Java/J2EE, Python, BeanShell, JavaScript, SQL |
+| **Databases** | Oracle, MySQL 5.0 & 8, MSSQL Server |
+| **Servers & OS** | IBM WebSphere, JBoss, Tomcat, IIS · Windows Server 2016/2019/2022, Linux (CentOS, RHEL 7) |
+| **Tools** | Eclipse, Apache Directory Studio, Postman, WinSCP |
 
-[<img align="left" alt="rakeshvadnala.online" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="rakeshvadnala | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="rakeshvadnala | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="rakeshvadnala | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-<br />
+## 🚀 Projects
 
-[website]: https://rakeshvadnala.online
-[twitter]: https://twitter.com/rakeshvadnala
-[instagram]: https://instagram.com/rakeshvadnala
-[linkedin]: https://linkedin.com/in/rakeshvadnala
+**IAM**
+- [**Identity Type Dashboard**](https://github.com/rakeshvadnala/identity-type-dashboard-plugin): a SailPoint IIQ plugin with a Java REST backend and Chart.js frontend, plus dark mode and CSV export
+- **TrinetraIQ**: ISPM "identity intelligence" for IIQ that classifies orphan, admin, service, privileged and dormant accounts and shows them on live dashboards
+- **iiq-plugin-init**: a CLI that scaffolds new SailPoint IIQ plugins
+- **IIQ MCP Server** *(in progress)*: exposes SailPoint IIQ as tools for AI assistants
+
+**Side projects**
+- [**Flow**](https://rakeshvadnala.in/todo): a Kanban-style productivity app with GitHub sync
+- **Pulsegrid**: a home network monitoring dashboard (Flask)
+- **Toolbench**: a browser developer toolkit with 25 tools (vanilla JS)
+- **RuView**: WiFi-based spatial sensing (Rust/Axum + React)
+
+**Earlier:** [WhatsApp Automation](https://github.com/rakeshvadnala/wasender) · [Python Projects](https://github.com/rakeshvadnala/LearningWithPy) · [Arduino & IoT](https://arduinoprojectsall.blogspot.com/)
+
+## 🏅 Certifications
+
+- Saviynt Certified IGA Professional (Saviynt)
+- IdentityIQ Implementation: Advanced Provisioning & Workflows (SailPoint)
+- SailPoint Identity Security Leader Credential (SailPoint)
+- CyberArk Trustee (CyberArk)
+- Network Essentials (Cisco Networking Academy)
+
+## 🎓 Education
+
+**B.Tech, Electrical & Electronics Engineering**, Vaagdevi Engineering College (2015 – 2019)
+
+## 📫 Connect
+
+[Website](https://rakeshvadnala.in) · [Resume](https://resume.rakeshvadnala.in/) · [LinkedIn](https://www.linkedin.com/in/rakeshvadnala/) · [GitHub](https://github.com/rakeshvadnala) · [NxtGen Identity Solutions](https://nxtgenidentity.com) · [Twitter](https://twitter.com/rakeshvadnala) · [Instagram](https://instagram.com/rakeshvadnala)
+
+---
+
+<sub>This repo hosts the source for [rakeshvadnala.in](https://rakeshvadnala.in), an interactive terminal-style portfolio. Type `help` on the site to explore.</sub>
